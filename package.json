@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "NITRO_PRESET=netlify-builder nitro dev",
-    "build": "NITRO_PRESET=netlify-builder nitro build"
+    "build": "NITRO_PRESET=netlify-builder nitro build && node ./scripts/addHeaders.js"
   },
   "devDependencies": {
     "nitropack": "latest"
