@@ -1,0 +1,11 @@
+{
+  "name": "example-hello-world",
+  "private": true,
+  "scripts": {
+    "dev": "NITRO_PRESET=netlify-builder nitro dev",
+    "build": "NITRO_PRESET=netlify-builder nitro build"
+  },
+  "devDependencies": {
+    "nitropack": "latest"
+  }
+}
